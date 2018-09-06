@@ -1,0 +1,44 @@
+.res-img{
+  height: 550px;
+}
+@media only screen and (max-width: 758px) {
+  .res-img{
+    height: 300px;
+  }
+}
+.na-op{
+  opacity: 0.8;
+}
+
+
+
+.srv h2 ,.srv h4{
+    font-size: 37px;
+    color:#47c19b;
+    padding-bottom: 20px;
+    line-height: 51px;
+    font-weight: bold;
+}
+
+
+.white-left span ,.ser-wthree-icon span{
+    font-size: 44px;
+    color: #000;
+    transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+}
+.white-right h4 {
+    font-size: 20px;
+    color: #fe625b;
+    letter-spacing: 1px;
+    margin: 17px 0px 0px;
+}
+.white-shadow {
+    border: 1px solid #c1c1c1;
+    /* background: #efefef; */
+    padding: 21px 15px;
+    box-shadow: 0px 0px 10px 0px black;
+}
