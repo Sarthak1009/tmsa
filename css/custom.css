@@ -1,3 +1,11 @@
+* { margin:0; padding:0; box-sizing:border-box; }
+
+
+body{
+  background-image: url("images/bg.jpg") no-repeat full-width;
+  background: url("images/bg.jpg");
+}
+
 .res-img{
   height: 550px;
 }
@@ -10,7 +18,9 @@
   opacity: 0.8;
 }
 
-
+.clr{
+  background-color: white;
+}
 
 .srv h2 ,.srv h4{
     font-size: 37px;
@@ -42,3 +52,37 @@
     padding: 21px 15px;
     box-shadow: 0px 0px 10px 0px black;
 }
+
+.color{
+  background-color: blue;
+}
+
+footer{
+  padding: 0;
+  margin: 0;
+  background-color: gray;
+}
+.nav-item:hover {
+  background-color: #ff4c26;
+  border: 1px solid #ff4c26;
+  box-shadow: 0px 0px 10px 0px black;
+}
+
+.services{
+  padding: 20px 0;
+  background-color: #E8E8E8;
+}
+
+.services h1{
+  text-align: center;
+  font-size: 50px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+
+.imgsrv img{
+  padding-top: 40px;
+  width: 80%;
+  height: 80%;
+}
+
