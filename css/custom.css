@@ -31,7 +31,7 @@ body{
 }
 
 
-.white-left span ,.ser-wthree-icon span{
+.white-left span ,.ser-wthree-icon span,.white-shadow i{
     font-size: 44px;
     color: #000;
     transition: 0.5s all;
@@ -86,3 +86,24 @@ footer{
   height: 80%;
 }
 
+.srvclr{
+  color:black;
+}
+.srvc1{
+  background-color: blue;
+  color: white;
+}
+.srvc1 i{
+  padding-left: 10px;
+}
+.srvc2{
+  background-color: violet;
+  color: white;
+}
+.srvc2 i{
+  padding-left: 10px;
+}
+.white-right:hove,.srvclr:hove{
+  background-color: black;
+  color:red;
+}
