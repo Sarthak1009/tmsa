@@ -104,14 +104,12 @@ footer{
   padding-left: 10px;
 }
 .srvc1:hover i.srvclr{
-  background-color: black;
   color:red;
 }
 .srvc1:hover{
   background-color: black;
 }
 .srvc2:hover i.srvclr{
-  background-color: black;
   color:red;
 }
 .srvc2:hover{
