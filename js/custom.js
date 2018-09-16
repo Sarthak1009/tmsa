@@ -6,5 +6,3 @@ var h = getElementByClassName('srvclr');
     getElementByClassName('srvclr').color = "red";
   });
 }());
-
- 

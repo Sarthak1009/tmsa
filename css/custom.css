@@ -70,6 +70,7 @@ footer{
 
 .services{
   padding: 20px 0;
+  padding-bottom: 50px;
   background-color: #E8E8E8;
 }
 
@@ -81,9 +82,9 @@ footer{
 }
 
 .imgsrv img{
-  padding-top: 40px;
-  width: 80%;
-  height: 80%;
+  padding-top: 150px;
+  width: 100%;
+  height: 100%;
 }
 
 .srvclr{
@@ -115,3 +116,64 @@ footer{
 .srvc2:hover{
   background-color: black;
 }
+
+
+
+
+/*--event--*/
+.events{
+  background-color: #E8F0F0;
+}
+.left-side-agile h4 {
+    font-size: 21px;
+    line-height: 44px;
+    color: #fe625b;
+}
+p.groom-right {
+    font-size: 15px;
+    color: #000;
+    line-height: 30px;
+    padding: 9px 0px 0px;
+}
+.left-side-agile {
+    background: #fff;
+      border: 1px solid #c1c1c1;
+    padding: 21px 15px;
+    box-shadow: 0px 0px 10px 0px black;
+}
+.event-w3ls-date {
+  border:none;
+    border-right: 2px dotted #000;
+}
+.event-w3ls-date h5{
+    font-weight: 600;
+    font-size: 33px;
+    color: #000;
+}
+.event-w3ls-date span {
+    font-size: 16px;
+    color:#47c19b;
+    font-weight: bold;
+    padding-top: 4px;
+}
+.event-w3ls-sub-txt h4 {
+    font-size: 17px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color:#47c19b;
+}
+.event-w3ls-sub-txt ul li,p.date-here {
+    display: inline-block;
+    font-size: 13px;
+    margin-right: 11px;
+    color: #000;
+}
+.event-w3ls-sub-txt ul li span ,.w3l-ser-sub-txt span{
+    font-size: 14px;
+    color:#fe625b;
+    margin-right: 6px;
+}
+.imgevt{
+  height: 323px;
+}
+/*--// event-- */
