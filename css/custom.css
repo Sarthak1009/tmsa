@@ -1,9 +1,23 @@
 * { margin:0; padding:0; box-sizing:border-box; }
-
+#bg{
+  position: fixed;
+  top: 0;
+  left: 0;
+  min-width: 100%
+  min-height:100%;
+}
 
 body{
   background-image: url("images/bg.jpg") no-repeat full-width;
-  background: url("images/bg.jpg");
+  /*background: url("images/bg.jpg");*/
+}
+
+.mynavbar{
+  background-color: #4e037a;
+  color: white;
+  width: 100%;
+  height: 30px;
+  top: fixed;
 }
 
 .res-img{
@@ -15,9 +29,13 @@ body{
   }
 }
 .na-op{
-  opacity: 0.8;
+  opacity: 1;
+  color: white;
 }
-
+.itclr{
+  color: white;
+}
+}
 .clr{
   background-color: white;
 }
@@ -64,10 +82,18 @@ footer{
 }
 .nav-item:hover {
   background-color: #ff4c26;
-  border: 1px solid #ff4c26;
-  box-shadow: 0px 0px 10px 0px black;
+  border: 1px solid #ff4c58;
+  box-shadow: 0px 0px 40px 0px black;
+  transition: transform 300ms ease-in-out;
+  transform: translate(5px,5px) rotate(-2deg);
 }
-
+.nav-item1:hover {
+  background-color: #ff4c26;
+  border: 1px solid #ff4c58;
+  box-shadow: 0px 0px 40px 0px black;
+  transition: transform 300ms ease-in-out;
+  transform: translate(5px,5px);
+}
 .services{
   padding: 20px 0;
   padding-bottom: 50px;
@@ -177,3 +203,64 @@ p.groom-right {
   height: 323px;
 }
 /*--// event-- */
+.trns{
+  transform: translate(100px,20px); rotate:(20deg);
+  transition: transform 300ms ease-in-out;
+}
+.mcontainer{
+  padding-top: 30px;
+  width: 90%;
+  height: 100%;
+  margin: 0 60px auto;
+  background-color: white;
+  border: 1px solid #c1c1c1;
+  /* background: #efefef; 
+  padding: 21px 15px;*/
+  box-shadow: 0px 10px 60px 0px black;
+}
+
+/*Core Team*/
+.dropdown {
+  float: left;
+  overflow: hidde;
+}
+
+/* Dropdown button */
+.dropdown .dropbtn {
+  border: none;
+  outline: none;
+  color: black;
+  padding-top: 8px;
+  background-color: inherit;
+  font: inherit; /* Important for vertical align on mobile phones */
+  margin: 0; /* Important for vertical align on mobile phones */
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content1 {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  width: 1490%;
+  left: -910%;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-content1 {
+  display: block;
+}
+
+.column1 {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+  background-color: #ccc;
+  height: 500px;
+}
+
+.row1:after {
+  content: "";
+  display: table;
+  clear: both;
+}
